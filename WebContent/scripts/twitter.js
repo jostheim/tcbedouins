@@ -1,5 +1,39 @@
 function init() {
 	do_twitter_user();
+	$("#about_tab").click(
+		function(e) {
+			if (!$("#about").is(":visible")) {
+				var id = $("#nav > li > a.on").parent().attr("id").split("_")[0]; 
+				$("#"+id).fadeOut("slow");
+				$("#about").fadeIn("slow").addClass("on");
+				$("#nav > li > a.on").removeClass("on");
+				$("#about_tab > a").addClass("on");
+			}
+		}
+	); 
+	$("#meet_tab").click(
+		function(e) {
+			if (!$("#meet").is(":visible")) {
+				var id = $("#nav > li > a.on").parent().attr("id").split("_")[0]; 
+				$("#"+id).fadeOut("slow");
+				$("#meet").fadeIn("slow");
+				$("#nav > li > a.on").removeClass("on");
+				$("#meet_tab > a").addClass("on");
+			}
+		}
+	); 
+	$("#contact_tab").click(
+		function(e) {
+			if (!$("#contact").is(":visible")) {
+				var id = $("#nav > li > a.on").parent().attr("id").split("_")[0]; 
+				$("#contact").fadeIn("slow").addClass("on");
+				$("#"+id).fadeOut("slow");
+				$("#nav > li > a.on").removeClass("on");
+				$("#contact_tab > a").addClass("on");
+			}
+		}
+	); 
+	
 }
 
 function do_twitter_user() {

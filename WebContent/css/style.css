@@ -253,3 +253,13 @@ img, div, input { behavior: url("../scripts/iepngfix.htc") }
 *:first-child+html .clearfix {
 	min-height: 1px;
 }
+
+/* tabs 
+ --------------------------------*/
+div#meet {
+	display:none;
+}
+
+div#contact {
+	display:none;
+}

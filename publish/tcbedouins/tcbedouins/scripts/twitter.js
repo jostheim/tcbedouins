@@ -91,8 +91,23 @@ function getPlace(week, place) {
 					if(data.geometry.coordinates) {
 						var longitude = data.geometry.coordinates[0];
 						var latitude = data.geometry.coordinates[1];
-						var href = "http://maps.google.com?q="+latitude+","+longitude;
-						week.append("<br/><a class='map' href='"+href+"'>View Map</a>");
+						var latlng = new google.maps.LatLng(latitude, longitude);
+						var mapDiv = $("<div class='map'></div>");
+						week.append(mapDiv);
+						 var myOptions = {
+							      zoom: 12,
+							      center: latlng,
+							      mapTypeId: google.maps.MapTypeId.ROADMAP
+						}
+						var map = new google.maps.Map(mapDiv[0], myOptions);
+						 var marker = new google.maps.Marker({
+					         map: map, 
+					         position: latlng
+					     });
+//						week.append("<img src='http://maps.google.com/maps/api/staticmap?center="+latitude+","+longitude+"&zoom=15&size=200x200\
+//&markers=color:blue|label:S|"+latitude+","+longitude+"&markers=size:tiny|color:green|Delta+Junction,AK\
+//&markers=size:mid|color:0xFFFF00|label:C|Tok,AK&sensor=false' />");
+						
 					}
 				}
 			},

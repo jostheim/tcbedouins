@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Twin Cities Bedouins: Inspire tangible momentum</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="robots" content="" />
+	
+	<link href="css/import.css" media="screen, projection" type="text/css" rel="stylesheet">
+	<link media="only screen and (max-device-width: 480px)" href="css/iphone.css" type="text/css" rel="stylesheet" />
+	
+	<!--jQuery -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<!-- PNGFix -->
+	<script type="text/javascript" src="scripts/iepngfix_tilebg.js"></script>
+	<!-- twitter -->
+	<script type="text/javascript" src='scripts/jquery.jsonp-1.0.4.min.js'></script>
+	<script type="text/javascript" src="scripts/twitter.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+	
+	<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="css/ie6.css" /><![endif]-->
+	
+	<script type="text/javascript">
+	    $(document).ready(function(){
+	        init();
+	    });
+	</script>
+</head>
+<body>
+
+<div id="container">
+
+<div id="branding">
+
+	<div class="top">
+
+		<h1><a href="#">Twin Cities Bedouins</a></h1>
+	
+		<ul id="nav">
+			<li id="about_tab"><a class="on" href="#">About</a></li>
+			<li id="meet_tab"><a class="" href="#">Meet</a></li>
+			<li id="contact_tab"><a class="" href="#">Contact</a></li>
+		</ul>
+			
+		<div class="twitter"><a href="http://www.twitter.com/tcbedouins">Twitter</a></div>
+		
+	</div><!-- end top -->
+	
+</div><!-- end branding -->
+
+<div id="wrapper">
+
+	<div id="feed">
+	
+		<h3>Where are we meeting next?</h3>
+	
+		<ul>
+			<li class="week"><img src="./images/week1.png"/></li>
+			<li class="week"><img src="./images/week2.png"/></li>
+			<li class="week"><img src="./images/week3.png"/></li>
+		</ul>
+	
+	</div>
+	
+	<div id="content">
+		<div id="about">
+			
+			<h2>Twin Cities Bedouins is a traveling group of people who create.</h2>
+			
+			<p>
+				One of the problems most often mentioned by members of the Minneapolis/St. Paul tech scene
+				<i>about</i> the Minneapolis/St. Paul tech scene is the lack of success getting quality startups
+				going in town.  It is our belief that the main issue with pushing forward is not a lack of
+				Angel Funding, a lack of talent or a lack of will.  We think the reason is simply
+				a lack of <b>momentum</b>.  In physics <b>Momentum</b> = <b>Mass</b> * <b>Velocity</b>, and we think that translates
+				pretty directly to the tech scene in Minneapolis/St. Paul as well. 
+			</p>
+			
+			<p>
+				In Silicon Valley everyone works in high tech, and many work at startups.  You can't go to a coffee shop
+				(according to <a target="_blank" href="http://luke.francl.org/">Luke Franci</a>, a <a href="http://www.ycombinator.com">Y-Combinator</a> alum who spent a 
+				summer in Silicon Valley) without running into folks coding, talking tech or working in some way on a
+				startup.  Contrast that with Minneapolis where you are only guaranteed to run into another entrepreneur
+				if you scheduled a meeting or you hit <a target="_blank" href="http://minnestar.org/minnebar/">Minnebar</a> or 
+				<a target="_blank" href="http://minnestar.org/minnedemo/">Minnedemo</a> (which occur about 4 times a year, and by
+				the way are absolutely awesome events). In short there is no <b>Momentum</b>, we lack both <b>Mass</b> (people) 
+				and <b>Velocity</b> (frequency of events).
+			</p>
+			<p>
+				Twins Cities Bedouins is meant to help remedy this situation. Based on an idea born in Austin, 
+				<a target="_blank" href="http://www.cafebedouins.com">Cafe Bedouins</a> is a group of self-starters, entrepeneurs, coders,
+				hackers, and side-project builders (to name a few) who get together at a coffee shop once a week to hack, code, 
+				colloborate, and network (to name a few things).  Once a week to keep the <b>Velocity</b> side of the equation
+				going and a group to feed the <b>Mass</b> side of the equation.  
+			</p>
+			<p>
+				Our sincere hope is that Twin Cities Bedouins helps get ideas built, people networked, and overall
+				greases the wheels of the Minneapolis/St. Paul tech startup community.
+			</p>
+			<p>
+				<a href="http://www.twitter.com/kadlac">Nate</a> and <a href="http://www.twitter.com/jostheim">Jamie</a> (organizers)
+			</p>		
+		</div>
+		<div id="meet">
+			<h3>Where do we meet?</h3>
+			
+			<p>
+				In general we will meet at coffee shops around town.  Our goal is to have a good geographic distribution of 
+				sites to meet at so the meetings will be convenient to attend no matter where you live.  We are currently 
+				working on finalizing a list of potential locations,
+				please <a href="https://docs.google.com/document/edit?id=1TGsZcg-V0xC5NJJRup1VwQjOFgYdYiUj8Ns45aKbSSs&authkey=CNeB0ZcF&hl=en#">contribute</a>
+				any good locations you know about!
+			</p>
+			
+			<h3>What to bring?</h3>
+			<p>
+				Bring whatever materials you need to hack!  This is not a formal thing so just bring whatever feels right, 
+				for example:
+				<ol class="bring_list">
+					<li>laptop</li>
+					<li>moleskin</li>
+					<li>pencil</li>
+					<li>your brain</li>
+					<li>a bit of money to support the coffee shop</li>
+				</ol>
+				<p/>
+			</p>
+			<h3>What to expect?</h3>
+			<p>
+				TC Bedouins is informal, so there are <b>not any speakers or formal agenda</b>, most we might
+				have is name tags.  Mostly we expect there to be some people talking, some people 
+				staring at screens, some people hacking and some people just gabbing.  In short there is no
+				right or wrong!  
+				
+			</p>
+		</div>
+		<div id="contact">
+			<p>
+				Best way to talk about TC Bedouins with other Bedouins (including the organizers) is the <a href="http://groups.google.com/group/twin-cities-bedouins">Google Group</a>.
+			</p>
+			<p>
+				You can also follow us on <a href="http://www.twitter.com/tcbedouins">Twitter</a>
+			</p>
+		</div>
+		<div class="bottom"></div>
+		
+	
+	</div>
+	
+</div><!-- end wrapper -->
+
+
+
+<div id="footer"></div><!-- end footer -->
+
+</div><!-- end container -->
+
+
+
+
+</body>
+</html>

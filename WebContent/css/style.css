@@ -1,0 +1,349 @@
+html {
+	height: 100%;
+	
+}
+
+
+body {
+	text-align: center;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 62.5%;
+	height: 100%;
+	background: #141414 url(../images/bg_image.jpg) fixed no-repeat right top;
+}
+
+#te, #le, #re, #be {
+	background: #242424;
+	display: block;
+	position: fixed;
+	z-index: 10;
+}
+
+#te {
+	height: 10px;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+#le {
+	width: 10px;
+	left: 0;
+	bottom: 0;
+	top: 0;
+}
+
+#re {
+	width: 10px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+#be {
+	height: 10px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+
+/*
+fonts ------------------------------------------ */
+
+a {
+	color: #c48f44;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #333;
+}
+
+h2 {
+	font-size: 3.2em;
+	color: #333;
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: 300;
+	margin: 0 0 20px 0;
+}
+
+h3 {
+	font-size: 2.2em;
+	color: #333;
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: 300;
+	margin: 10px 0;
+}
+
+p {
+	font-size: 1.4em;
+	color: #333;
+	font-family: Georgia, "Times New Roman", serif;
+	line-height: 1.5em;
+	margin: 0 0 20px 0;
+}
+
+ol {
+	margin: 0 0 0 15px;
+}
+
+ol li {
+	background: url(../images/icon_light.gif) no-repeat left 50%;
+	padding: 5px 0 5px 20px;
+	line-height: 1.5em;
+	font-size: 1.2em;
+}
+
+
+
+
+/*
+branding ------------------------------------------ */
+
+#outer {
+	width: 96em;
+	margin: 0 auto;
+	position: relative;
+	
+	
+}
+
+#branding {
+	height: 200px;
+	position: fixed;
+	top: 0;
+	width: 96em;
+	margin: 0 auto;
+	background: url(../images/bg_branding.png) no-repeat left 0;	
+	
+}
+
+#branding h1 {
+	text-indent: -9999px;
+	
+}
+
+#branding h1 a {
+	display: block;
+	width: 321px;
+	height: 320px;
+	top: 52px;
+	left: 50px;
+	position: absolute;
+	background: url(../images/logo.png) no-repeat left top;
+	
+}
+
+#branding .top {
+	margin: 0 auto;
+	position: relative;
+	
+}
+
+#branding .top .twitter {
+	text-indent: -9999px;
+	position: absolute;
+	top: 90px;
+	right: 20px;	
+}
+
+#branding .twitter a {
+	display: block;
+	width: 94px;
+	height: 46px;
+	background: url(../images/icon_twitter.gif) no-repeat left top;
+}
+
+#branding .twitter a:hover {
+	background: url(../images/icon_twitter.gif) no-repeat left bottom;
+}
+
+
+
+/*
+navigation ------------------------------------------ */
+
+#nav {
+	position: absolute;
+	left: 410px;
+	top: 110px;
+}
+
+#nav li {
+	float: left;
+	font-size: 1.4em;
+}
+
+#nav li a {
+	position: relative;
+	display: block;
+	padding: 10px 10px;
+	text-decoration: none;
+	color: #262626;
+}
+
+#nav li a:hover {
+	color: #e1e1e1;
+}
+
+#nav li a.on {
+	color: #c48f44;
+	border-bottom: solid 3px #f2f2f2;
+}
+
+#nav li a:active {
+	top: 1px;
+}
+
+
+
+/*
+wrapper ----------------------------------------------- */
+
+#wrapper {
+	width: 96em;
+	margin: 0 auto;
+	background: #FFF url(../images/bg_page.gif) no-repeat left top;
+	
+}
+
+
+#content {
+	text-align: left;
+	width: 470px;
+	padding: 200px 20px 80px 410px;
+	text-align: left;
+	min-height: 600px;
+}
+
+#content .bottom {
+	background: url(../images/img_footer.jpg) no-repeat left bottom;
+	height: 100px;
+}
+
+
+
+/*
+feed ----------------------------------------------- */
+
+#wrapper #feed {
+	width: 250px;
+	text-align: left;
+	position: fixed;
+	margin: 300px 0 0 0;
+	padding: 0 0 0 50px;
+}
+
+#feed h3 {
+	margin: 0 0 20px 0;
+	font-size: 1.8em;
+}
+
+#feed ul li {
+	padding: 0 10px;
+	font-size: 1.2em;
+	padding: 0 0 15px 0;
+	line-height: 1.5em;
+	margin: 0 0 10px 0;
+	display: block;
+	clear: both;
+}
+
+#feed ul li img {
+	padding: 0 15px 20px 0;
+	float: left;
+}
+
+#feed ul li.week1 {
+	background: url(../images/icon_calendar.png) no-repeat 5px 0;
+}
+
+#feed ul li.week2 {
+	background: url(../images/icon_calendar.png) no-repeat 5px -92px;
+}
+
+#feed ul li.week3 {
+	background: url(../images/icon_calendar.png) no-repeat 5px -194px;
+}
+
+#feed ul li .map {
+	float:left;
+	padding:0 15px 0 0;
+	padding-left:56px;
+	text-indent: -9999px;
+	margin: 5px 0 15px 0;
+}
+
+#feed ul li a.map {
+	background: url(../images/btn_viewmap.png) no-repeat left top;
+}
+
+#feed ul li a.map:hover {
+	background: url(../images/btn_viewmap.png) no-repeat left -27px;
+}
+
+#feed ul li a.map:active {
+	position: relative;
+	top: 1px;
+}
+
+
+
+/*
+footer ----------------------------------------------- */
+
+
+#footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 200px;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Keep these styles at the bottom of stylesheet */
+
+/* PNG Fix
+Here's an example you might use in practice:
+img, div.menu, .pngfix, input { behavior: url("/css/iepngfix.htc") }
+-------------------------------- */
+img, div, input { behavior: url("../scripts/iepngfix.htc") }
+
+
+/* =Clearfix (add .clearfix to any div you need cleared - all browsers)
+-------------------------------- */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* IE6 */ 
+* html .clearfix {height: 1%;}
+
+/* IE7 */
+*:first-child+html .clearfix {
+	min-height: 1px;
+}
+
+
+#meet {
+	display: none;
+}
+
+
+#contact {
+	display: none;
+}
